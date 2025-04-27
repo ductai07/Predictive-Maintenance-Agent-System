@@ -1,0 +1,15 @@
+{
+    "isolation_forest": {
+        "n_estimators": 120,
+        "contamination": 0.07,
+        "max_samples": 0.8,
+        "random_state": 42
+    },
+    "feature_importance": {
+        "temperature": 0.35,
+        "vibration": 0.3,
+        "pressure": 0.15,
+        "flow_rate": 0.1,
+        "power_consumption": 0.1
+    }
+}

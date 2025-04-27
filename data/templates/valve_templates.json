@@ -1,0 +1,38 @@
+{
+    "leakage": {
+        "issue": "R\u00f2 r\u1ec9 van",
+        "recommendation": "Thay th\u1ebf \u0111\u1ec7m k\u00edn, ki\u1ec3m tra b\u1ec1 m\u1eb7t ti\u1ebfp x\u00fac v\u00e0 tr\u00f9ng kh\u1edbp c\u1ee7a van. C\u00e2n nh\u1eafc m\u00e0i l\u1ea1i b\u1ec1 m\u1eb7t ti\u1ebfp x\u00fac.",
+        "severity": "medium",
+        "consequences": "M\u1ea5t \u00e1p su\u1ea5t, t\u0103ng ti\u00eau th\u1ee5 n\u0103ng l\u01b0\u1ee3ng v\u00e0 c\u00f3 th\u1ec3 g\u00e2y \u00f4 nhi\u1ec5m ho\u1eb7c m\u1ea5t s\u1ea3n ph\u1ea9m.",
+        "estimated_downtime_hours": 3,
+        "parts_needed": [
+            "B\u1ed9 \u0111\u1ec7m k\u00edn van",
+            "V\u1eadt li\u1ec7u m\u00e0i",
+            "Ch\u1ea5t b\u00f4i tr\u01a1n cho van"
+        ]
+    },
+    "stuck_valve": {
+        "issue": "Van k\u1eb9t ho\u1eb7c kh\u00f3 thao t\u00e1c",
+        "recommendation": "Th\u00e1o, v\u1ec7 sinh v\u00e0 b\u00f4i tr\u01a1n van. Ki\u1ec3m tra c\u01a1 c\u1ea5u truy\u1ec1n \u0111\u1ed9ng v\u00e0 b\u1ed9 \u0111i\u1ec1u khi\u1ec3n.",
+        "severity": "high",
+        "consequences": "C\u00f3 th\u1ec3 d\u1eabn \u0111\u1ebfn m\u1ea5t ki\u1ec3m so\u00e1t qu\u00e1 tr\u00ecnh, g\u00e2y h\u01b0 h\u1ecfng d\u00e2y chuy\u1ec1n ho\u1eb7c s\u1ea3n ph\u1ea9m.",
+        "estimated_downtime_hours": 4,
+        "parts_needed": [
+            "B\u1ed9 ph\u1eadn truy\u1ec1n \u0111\u1ed9ng",
+            "Ch\u1ea5t b\u00f4i tr\u01a1n",
+            "Ph\u1ee5 t\u00f9ng \u0111i\u1ec1u khi\u1ec3n"
+        ]
+    },
+    "control_failure": {
+        "issue": "L\u1ed7i \u0111i\u1ec1u khi\u1ec3n van",
+        "recommendation": "Ki\u1ec3m tra b\u1ed9 \u0111i\u1ec1u khi\u1ec3n van, c\u1ea3m bi\u1ebfn ph\u1ea3n h\u1ed3i v\u00e0 k\u1ebft n\u1ed1i. Hi\u1ec7u ch\u1ec9nh l\u1ea1i n\u1ebfu c\u1ea7n thi\u1ebft.",
+        "severity": "high",
+        "consequences": "M\u1ea5t kh\u1ea3 n\u0103ng \u0111i\u1ec1u khi\u1ec3n ch\u00ednh x\u00e1c qu\u00e1 tr\u00ecnh, c\u00f3 th\u1ec3 g\u00e2y ng\u1eebng s\u1ea3n xu\u1ea5t ho\u1eb7c s\u1ef1 c\u1ed1 an to\u00e0n.",
+        "estimated_downtime_hours": 6,
+        "parts_needed": [
+            "B\u1ed9 \u0111i\u1ec1u khi\u1ec3n van",
+            "C\u00e1p t\u00edn hi\u1ec7u",
+            "C\u1ea3m bi\u1ebfn v\u1ecb tr\u00ed"
+        ]
+    }
+}

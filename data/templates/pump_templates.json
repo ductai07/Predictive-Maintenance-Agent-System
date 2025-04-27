@@ -1,0 +1,38 @@
+{
+    "high_temperature": {
+        "issue": "Nhi\u1ec7t \u0111\u1ed9 b\u01a1m cao b\u1ea5t th\u01b0\u1eddng",
+        "recommendation": "Ki\u1ec3m tra h\u1ec7 th\u1ed1ng l\u00e0m m\u00e1t, m\u1ee9c d\u1ea7u b\u00f4i tr\u01a1n v\u00e0 c\u0103n ch\u1ec9nh tr\u1ee5c b\u01a1m. C\u00e2n nh\u1eafc v\u1ec7 sinh b\u1ed9 t\u1ea3n nhi\u1ec7t.",
+        "severity": "high",
+        "consequences": "C\u00f3 th\u1ec3 d\u1eabn \u0111\u1ebfn h\u1ecfng b\u1ea1c \u0111\u1ea1n, bi\u1ebfn d\u1ea1ng tr\u1ee5c, v\u00e0 ng\u1eebng ho\u1ea1t \u0111\u1ed9ng ho\u00e0n to\u00e0n c\u1ee7a b\u01a1m.",
+        "estimated_downtime_hours": 6,
+        "parts_needed": [
+            "D\u1ea7u b\u00f4i tr\u01a1n",
+            "B\u1ea1c \u0111\u1ea1n",
+            "L\u00e0m s\u1ea1ch h\u1ec7 th\u1ed1ng l\u00e0m m\u00e1t"
+        ]
+    },
+    "high_vibration": {
+        "issue": "\u0110\u1ed9 rung cao b\u1ea5t th\u01b0\u1eddng",
+        "recommendation": "Ki\u1ec3m tra c\u0103n ch\u1ec9nh tr\u1ee5c, c\u00e2n b\u1eb1ng r\u00f4-to, v\u00e0 ki\u1ec3m tra t\u00ecnh tr\u1ea1ng b\u1ea1c \u0111\u1ea1n.",
+        "severity": "high",
+        "consequences": "C\u00f3 th\u1ec3 g\u00e2y h\u01b0 h\u1ecfng c\u01a1 kh\u00ed nghi\u00eam tr\u1ecdng, r\u00f2 r\u1ec9 \u0111\u1ec7m k\u00edn v\u00e0 s\u1edbm h\u1ecfng b\u1ea1c \u0111\u1ea1n.",
+        "estimated_downtime_hours": 8,
+        "parts_needed": [
+            "B\u1ea1c \u0111\u1ea1n m\u1edbi",
+            "\u0110\u1ec7m k\u00edn tr\u1ee5c",
+            "D\u1ee5ng c\u1ee5 c\u00e2n b\u1eb1ng"
+        ]
+    },
+    "low_flow_rate": {
+        "issue": "L\u01b0u l\u01b0\u1ee3ng th\u1ea5p b\u1ea5t th\u01b0\u1eddng",
+        "recommendation": "Ki\u1ec3m tra c\u00e1nh b\u01a1m b\u1ecb m\u00f2n, t\u1eafc ngh\u1ebdn \u0111\u01b0\u1eddng \u1ed1ng h\u00fat ho\u1eb7c x\u1ea3, v\u00e0 van \u0111i\u1ec1u khi\u1ec3n.",
+        "severity": "medium",
+        "consequences": "Gi\u1ea3m hi\u1ec7u su\u1ea5t h\u1ec7 th\u1ed1ng v\u00e0 t\u0103ng \u00e1p l\u1ef1c kh\u00f4ng c\u1ea7n thi\u1ebft tr\u00ean \u0111\u1ed9ng c\u01a1 b\u01a1m.",
+        "estimated_downtime_hours": 4,
+        "parts_needed": [
+            "B\u1ed9 l\u1ecdc",
+            "Van m\u1ed9t chi\u1ec1u",
+            "C\u00e1nh b\u01a1m (n\u1ebfu c\u1ea7n)"
+        ]
+    }
+}
