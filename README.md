@@ -113,4 +113,5 @@ python data/sample_sensor_data.py
 ```bash
 python models/model_config.py
 ```
+Demo UI
 ![Demo](https://github.com/ductai07/Predictive-Maintenance-Agent-System/blob/master/demo.gif)
