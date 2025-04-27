@@ -1,12 +1,8 @@
-"""
-Module chứa bảng điều khiển tương tác cho hệ thống bảo trì dự đoán.
-"""
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
-
 from src.agents.maintenance_agent import MaintenanceAgent
 
 class MaintenanceDashboard:
