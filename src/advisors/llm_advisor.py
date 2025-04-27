@@ -13,17 +13,15 @@ class LLMAdvisor:
     """Use LLM to analyze anomalies and provide maintenance recommendations."""
     
     def __init__(self, api_key: str = None):
-        # If API key is provided, use it; otherwise rely on environment variables
         if api_key:
             os.environ["GEMINI_API_KEY"] = api_key
             
-        # Initialize OpenAI model
         self.llm = GoogleGenerativeAI(model="gemini-2.0-flash",temperature=0.1)
         self.memory = ConversationBufferMemory(memory_key="chat_history")
         
     def analyze_anomaly(self, equipment_data: pd.DataFrame) -> Dict:
         """Analyze anomalies using LLM and generate recommendations."""
-        # Filter only anomalous data points
+  
         anomaly_data = equipment_data[equipment_data['is_anomaly']]
         
         if anomaly_data.empty:
@@ -85,7 +83,6 @@ class LLMAdvisor:
             result = result.replace("```json", "").replace("```", "").strip()
             recommendation = json.loads(result)
         except json.JSONDecodeError:
-            # Fallback if JSON parsing fails
             recommendation = {
                 "issue": "Thiết bị có thể gặp trục trặc",
                 "recommendation": result,
@@ -98,7 +95,6 @@ class LLMAdvisor:
         return recommendation
     
     def create_maintenance_plan(self, equipment_list: List[str], recommendations: Dict) -> Dict:
-        """Create an optimized maintenance plan for multiple equipment."""
         prompt = PromptTemplate(
             input_variables=["equipment_data"],
             template="""
@@ -140,11 +136,10 @@ class LLMAdvisor:
         result = chain.invoke({"equipment_data":equipment_data})
         
         try:
-            # Clean and parse the JSON response
             result = result.replace("```json", "").replace("```", "").strip()
             plan = json.loads(result)
         except json.JSONDecodeError:
-            # Fallback if JSON parsing fails
+
             plan = {
                 "schedule": "Ưu tiên theo mức độ nghiêm trọng",
                 "justification": "Các vấn đề nguy cấp phải được giải quyết trước",
