@@ -1,6 +1,3 @@
-"""
-Module chứa đại lý bảo trì chịu trách nhiệm điều phối xử lý dữ liệu, phát hiện bất thường và lập kế hoạch bảo trì.
-"""
 from typing import Dict, List
 
 from src.data.sensor_processor import SensorDataProcessor
@@ -32,7 +29,6 @@ class MaintenanceAgent:
             self.equipment_status[equipment_id] = "Unknown"
     
     def process_equipment(self, equipment_id: str) -> Dict:
-        """Process data for a specific equipment and generate recommendations."""
         # Get equipment data
         equipment_data = self.data_processor.get_equipment_data(equipment_id)
         
@@ -86,7 +82,6 @@ class MaintenanceAgent:
         equipment_data = self.data_processor.get_equipment_data(equipment_id)
         anomaly_data = self.anomaly_detector.detect_anomalies(equipment_data)
         
-        # Calculate summary statistics
         summary = {
             "equipment_id": equipment_id,
             "total_readings": len(anomaly_data),
