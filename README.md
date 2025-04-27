@@ -49,7 +49,7 @@ Hệ thống Bảo trì Dự đoán FPT Digital được thiết kế nhằm gi�
 ## Cấu trúc dự án
 
 ```
-Predictive Maintenance Agent System FPT Digital/
+Predictive Maintenance Agent System/
 │
 ├── main.py                     # Điểm khởi chạy chính của ứng dụng
 ├── README.md                  # File hướng dẫn
@@ -93,8 +93,7 @@ Predictive Maintenance Agent System FPT Digital/
 1. Clone repository:
 
 ```bash
-git clone https://github.com/fptdigital/predictive-maintenance.git
-cd FPT\ Digital
+git clone [https://github.com/fptdigital/predictive-maintenance.git](https://github.com/ductai07/Predictive-Maintenance-Agent-System)
 ```
 
 2. Cài đặt các dependencies:
